@@ -5,14 +5,20 @@ function Default(html) {
     <html>
     <head>
       <title>{html.title || 'Default'}</title>
+      <link rel="stylesheet" href="/main.css" />
     </head>
     <body>
-      <h1>HTML Rendered!</h1>
-      {html.children}
+      <div className="wrapper">
+        <header>
+          <h1><a href="/breads">BreadCRUD</a></h1>
+        </header>
+        <div className="container">
+          {html.children}
+        </div>
+      </div>
     </body>
     </html>
   )
 }
-
 
 module.exports = Default
