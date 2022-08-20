@@ -26,6 +26,7 @@ function New () {
                 id='hasGluten'
                 defaultChecked
             />
+        <input type="submit"/>
         </form>
         <div className='backButton'>
             <a href='/breads'><button>Go back to the index</button></a>
