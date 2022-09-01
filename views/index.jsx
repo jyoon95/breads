@@ -1,4 +1,5 @@
 const React = require('react')
+// bread sucks
 const Default = require('./layouts/Default')
 
 function Index ({breads, bakers, title}) {
