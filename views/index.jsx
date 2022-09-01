@@ -22,6 +22,7 @@ function Index ({breads, bakers, title}) {
                     {
                         breads.map((bread, index)=>{
                             return(<li key={bread.id}>
+                                {/* no underscore id */}
                                 <a href={`/breads/${bread.id}`}>
                                     {bread.name}
                                 </a>
